@@ -1,0 +1,30 @@
+.sticky-header {
+    position: -webkit-sticky; /* Para navegadores webkit */
+    position: sticky;
+    top: 0; /* Se quedará en la parte superior de la ventana */
+    z-index: 1000; /* Asegura que se mantenga por encima de otros elementos */
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.3);
+    z-index: 100;
+}
+body, header {
+    margin: 0;
+    padding: 0;
+}
+.btn-info{
+    background-color: #5b2c6f;
+    color: #ffffff;
+}
+

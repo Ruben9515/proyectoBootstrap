@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTOWEB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <a href="http://wa.link/rkpjdv" class="btn-wsp" target="_blank">
+        <i class="fab fa-whatsapp"></i> <!-- Cambia icon-whatsapp por fab fa-whatsapp -->
+    </a>    
+    <header class="navbar" style="background-color: #5b2c6f;" style="padding: 5px 0;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="index.html" class="navbar-brand" style="font-size: 2.5rem; font-weight: bold; color: #ff7f00;">PedEx</a> 
+            
+            <nav class="navbar navbar-expand-lg">
+                <div class="navbar-nav" style="font-size: 1.4rem;"> <!-- Ajuste de tamaño general -->
+                    <div class="nav-item dropdown mx-3"> <!-- Margen entre elementos -->
+                        <a class="nav-link dropdown-toggle" style="color: #ff7f00;" href="#" role="button" data-bs-toggle="dropdown" style="padding: 5px;">
+                            <i class="fas fa-users me-2" style="color: #ff7f00;"></i> Sobre Nosotros
+                        </a>
+                        <ul style="right: 5px; text-align: center;" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="quinessomos.html">Quienes Somos</a></li>
+                            <li><a class="dropdown-item" href="nuestrahistoria.html">Nuestra Historia</a></li>
+                            <li><a class="dropdown-item" href="misionvision.html">Misión y Visión</a></li>
+                            <li><a class="dropdown-item" href="valores.html">Valores</a></li>
+                            <li><a class="dropdown-item" href="nosotros.html">Nuestro Equipo</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle" style="color: #ff7f00;" href="#" role="button" data-bs-toggle="dropdown" style="padding: 5px;">
+                            <i class="fas fa-envelope me-2" style="color: #ff7f00;"></i> Envio con Pedex Express
+                        </a>
+                        <ul style="right: 5px; text-align: center;" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="pedexexpress.html">¿Qué es envío con PedEx Express?</a></li>
+                            
+                        </ul>
+                    </div>
+    
+                    <div class="nav-item dropdown mx-3"> <!-- Margen entre elementos -->
+                        <a class="nav-link dropdown-toggle" style="color: #ff7f00;" href="#" role="button" data-bs-toggle="dropdown" style="padding: 5px;">
+                            <i class="fas fa-envelope me-2" style="color: #ff7f00;"></i> Contáctanos
+                        </a>
+                        <ul style="right: 5px; text-align: center;" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="PedexSANTACRUZ.html">PedEx Santa Cruz</a></li>
+                            <li><a class="dropdown-item" href="PedexLAPAZ.html">PedEx La Paz</a></li>
+                            <li><a class="dropdown-item" href="PedexCOCHABAMBA.html">PedEx Cochabamba</a></li>
+                            
+                        </ul>
+                    </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sección de Noticias Alternadas</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f2f5;
+                margin: 0;
+                padding: 0;
+            }
+    
+            .news-container {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+                margin: 20px;
+            }
+    
+            .news-card {
+                display: flex;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                width: 900px;
+            }
+    
+            .news-card.reverse {
+                flex-direction: row-reverse;
+            }
+    
+            .news-image {
+                flex: 1;
+            }
+    
+            .news-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+    
+            .news-content {
+                padding: 20px;
+                flex: 1;
+            }
+    
+            .news-content h1 {
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+    
+            .news-content h3 {
+                font-size: 18px;
+                margin-bottom: 10px;
+                color: #555;
+            }
+    
+            .news-content p {
+                font-size: 14px;
+                margin-bottom: 15px;
+                color: #777;
+            }
+    
+            .services-list {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+                margin-bottom: 20px;
+            }
+    
+            .service-item {
+                display: flex;
+                align-items: center;
+                background-color: #f8f8f8;
+                padding: 10px;
+                border-radius: 8px;
+                width: 45%;
+            }
+    
+            .service-item i {
+                font-size: 20px;
+                margin-right: 10px;
+                color: #ffcc00;
+            }
+    
+            .service-item p {
+                margin: 0;
+                font-size: 14px;
+            }
+    
+            .btn-action {
+                background-color: #d40511;
+                color: white;
+                padding: 12px 20px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 5px;
+                font-weight: bold;
+                display: inline-block;
+            }
+    
+            .btn-action:hover {
+                background-color: #b2040e;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <!-- Contenedor de todas las noticias -->
+    <div class="news-container">
+    
+        <!-- Primera sección de noticias (imagen derecha, texto izquierda) -->
+        <div class="news-card">
+            <div class="news-image">
+                <img src="PEDEX XPRESS.png" alt="Imagen de noticias">
+            </div>
+            <div class="news-content">
+                <h1>Envío con PedEx Express</h1>
+                <p></p>
+                <p>Ofrecemos PedEx Express, un servicio de Delivery rápido e instantáne, llegamos a dónde estés, recibimos y enviamos tus paquetes de forma rápida y segura.
+
+                    Para poder obtener más información sobre nuestros servicios, puedes comunicarte con nosotros dando click al botón de abajo.
+                </p>
+                <p>Te ofreceremos la mejor atención personal. Solo tienes que comunicarte con nosotros via WhatsApp, nosotros atenderemos tus consultas y dudas.</p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <a href="http://wa.link/rkpjdv" class="btn-action">Contactase con PedEx Express</a>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <footer class="bg-light py-4 mt-5">
+        <div class="container-fluid text-center">
+            <h4>&copy; PedEx 2024</h4>
+            <h5>Todos los Derechos Reservados</h5>
+            <p>
+                <strong>E-mail:</strong> pedex.bo@gmail.com <br>
+                <strong>Teléfono:</strong>  (591) 3 342 - 6600 -  (591) 63507627 <br>
+                <strong>Dirección:</strong> Av. Beni y Tercer Anillo Externo
+            </p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="privacidad.html">Política de Privacidad</a></li>
+                <li class="list-inline-item"><a href="terminos.html">Términos y Condiciones</a></li>
+                <li class="list-inline-item"><a href="pedex.bo@gmail.com"><i class="fas fa-envelope"></i> pedex.bo@gmail.com</a></li>
+            </ul>
+            <div id="redes-sociales" class="mt-3">
+                <a href="https://www.facebook.com/SinteSync" target="_blank" class="text-decoration-none text-primary" style="width: 200px;">
+                    <i class="fab fa-facebook fa-2x"></i> Facebook
+                </a>
+                <a href="https://www.instagram.com/SinteSync" target="_blank" class="text-decoration-none text-danger" style="width: 200px;">
+                    <i class="fab fa-instagram fa-2x"></i> Instagram
+                </a>
+                <a href="https://twitter.com/SinteSync" target="_blank" class="text-decoration-none text-info" style="width: 200px;">
+                    <i class="fab fa-twitter fa-2x"></i> X
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
